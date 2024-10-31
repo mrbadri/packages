@@ -1,0 +1,69 @@
+{
+  "name": "@repo/icons",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./ali": "./src/ali.tsx",
+    "./eye": "./src/components/eye.tsx",
+    ".": [
+      "./src/components/*.tsx"
+    ],
+    "./pxiel": "./src/components/pixel.tsx",
+    "./google": "./src/components/googleicon.tsx",
+    "./linkedin": "./src/components/linkedinicon.tsx",
+    "./youtube": "./src/components/youtube.tsx",
+    "./twitter": "./src/components/twitter.tsx",
+    "./instagram": "./src/components/instagram.tsx",
+    "./figma": "./src/components/figma.tsx",
+    "./adobexd": "./src/components/adobexd.tsx",
+    "./sketch": "./src/components/sketch.tsx",
+    "./chevron-right": "./src/components/chevron-right.tsx",
+    "./message-circle": "./src/components/message-circle.tsx",
+    "./heart1": "./src/components/heart1.tsx",
+    "./shoppingcartplus": "./src/components/shoppingcartplus.tsx",
+    "./Circlecheck": "./src/components/circlecheck.tsx",
+    "./clouddownload": "./src/components/clouddownload.tsx",
+    "./search": "./src/components/search.tsx",
+    "./bell": "./src/components/bell.tsx",
+    "./chevrondown": "./src/components/chevrondown.tsx",
+    "./infosquarerounded": "./src/components/infosquarerounded.tsx",
+    "./infocircle": "./src/components/infocircle.tsx",
+    "./Belender": "./src/components/belender.tsx",
+    "./android": "./src/components/android.tsx",
+    "./AfterEffect": "./src/components/after-effect.tsx",
+    "./bootstrap": "./src/components/bootstrap.tsx",
+    "./framer": "./src/components/framer.tsx",
+    "./Html": "./src/components/html.tsx",
+    "./Illustrator": "./src/components/Illustrator.tsx",
+    "./Photoshop": "./src/components/photoshop.tsx",
+    "./shopping-cart-plus": "./src/components/shopping-cart-plus.tsx",
+    "./Circle-check": "./src/components/circle-check.tsx",
+    "./cloud-download": "./src/components/cloud-download.tsx",
+    "./chevron-down": "./src/components/chevron-down.tsx",
+    "./info-square-rounded": "./src/components/info-square-rounded.tsx",
+    "./info-circle": "./src/components/info-circle.tsx",
+    "./cursor": "./src/components/cursor.tsx",
+    "./types": "./src/types/types.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "generate:component": "turbo gen react-component"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "@turbo/gen": "^1.12.4",
+    "@types/eslint": "^8.56.5",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.12.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.28",
+    "react": "^18.2.0"
+  }
+}
